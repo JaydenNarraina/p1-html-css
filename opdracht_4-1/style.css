@@ -1,0 +1,28 @@
+body{
+  font-family: ftltlt;
+}
+
+@font-face {
+  font-family: ftltlt;
+  src: url(ftltlt-webfont.woff2);
+}
+
+.section-title {
+  font-size: 56px;
+  color: #9000ff;
+  font-weight: 900px;
+}
+p {
+  color: #0d0303;
+  font-size: 28px;
+}
+.section-paragraph {
+  font-weight: 900;
+}
+a {
+  color: #7272dd;
+}
+.linkie {
+  text-decoration-line: none;
+}
+
