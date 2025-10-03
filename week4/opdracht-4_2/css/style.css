@@ -1,6 +1,10 @@
 /* Algemene stijl */
 body{
-  background-image: url(../image-4-3.jpg);
+  background-image: url(../watch.png);
+  background-size: 25%;
+  background-repeat: no-repeat;
+margin: auto;
+  background-position: 1100px 400px;
 }
 
 
@@ -100,7 +104,8 @@ align-content: center;
   padding: 40px;
   background: #f5f5f5;
   background-color: #fff;
-  margin-top: 170px;
+  margin-top: 200px;
+  border-radius: 0% 0% 20% 0%;
 
 }
 .product-info h2 {
@@ -122,6 +127,4 @@ align-content: center;
   background: black;
   color: white;
 }
-
-
 
