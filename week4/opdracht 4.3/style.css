@@ -1,4 +1,194 @@
-@font-face {
-  font-family: "ftltlt";
-  src: url(fonts/ftltlt-webfont.woff2);
+
+.Hi {
+    position: absolute;
+    font-size: 25px;
+    top: 110px;
+    left: 200px;
+}
+.hallo {
+    position: relative;
+    left: 120px;
+    color: white;
+    font-size: 130px;
+    font-weight: 1;
+}
+.hallo2 {
+    position: relative;
+    top: -70px;
+    left: 120px;
+    color: white;
+    font-weight: 1;
+    font-size: 30px;
+    width: 800px;
+
+}
+.hallo3 {
+    position: relative;
+    top: -90px;
+    left: 120px;
+    color: white;
+    font-weight: 1;
+    font-size: 30px;
+    width: 800px;
+}
+.knopje, .knopje2 {
+    position: relative;
+    top: -70px;
+    left: 120px;
+    width: 200px;
+    height: 70px;
+    
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.knopje {
+    
+background-color: black;
+outline: 1px solid white;
+}
+.knopje2 {
+    position: relative;
+    left: 150px;
+background-color: #9000ff;
+}
+.blokje {
+    font-size: 30px;
+    
+    position: relative;
+    width: 102%;     
+    height: 80px;    
+    background-color: #7272dd;
+    margin: -8px;
+    word-spacing: 100px;
+    
+}
+a {
+    position: relative;
+    top: 20px;
+    left:130px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.pagina1 {
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 102%;
+    margin: -8px;
+    padding: 1px;
+}
+.blok1,
+.blok2,
+.blok3 {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  top: 0%;
+}
+.blok1 {
+  background-color: #9000ff;
+  width: 25px;
+}
+.blok2 {
+  background-color: #55559f;
+  width: 25px;
+  left: 30px;
+}
+.blok3 {
+  background-color: #b0b0eb;
+  left: 60px;
+  width: 25px;
+}
+.blokjes {
+  position: absolute;
+  top: 170px;
+  left: 120px;
+  width: 5000px;
+  height: 10px;
+}
+.shape {
+  position: absolute;
+  left: 850px;
+  top: -300px;
+  width: 700px;
+  height: 700px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #9257ff;
+  border-radius: 50%;
+}
+.tekst1 {
+    position: relative;
+    left: 120px;
+font-size: 70px;
+font-weight: 1;
+}
+.tekst2 {
+    position: relative;
+    left: 120px;
+font-size: 30px;
+width: 800px;
+}
+.opties {
+    position: relative;
+    left: 120px;
+    font-size: 30px;
+}
+.buttonontdek {
+   position: relative;
+    top: 30px;
+    left: 120px;
+    width: 270px;
+    height: 70px;
+    
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.pagina2
+{
+    background-color: #eaeaea;
+   margin-top: 0; 
+   padding-top: 30px;
+   height: 800px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #9000ff;
+    height: 200px;
+    width: 102%;
+    margin: -8px;
+    padding: 1px;
+}
+.linkjes {
+    position: relative;
+    top: 70px;
+    left: 120px;
+    font-size: 20px;
+    word-spacing: 30px;
+}
+.apps {
+    position: relative;
+    top: 70px;
+    left: 800px;
+    width: 200px;
+    height: 70px;
+    
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #9000ff;
+    outline: 1px solid white;
 }
