@@ -1,0 +1,30 @@
+.blokjes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+   
+    width: 1200px;
+}
+.blok-b {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.blok-z {
+    background-color: black;
+    height: 200px;
+    width: 200px;   
+}
+.blok-r {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.blok-g {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+p {
+    color : purple;
+}
