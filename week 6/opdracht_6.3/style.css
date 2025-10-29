@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px 0;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  word-spacing: 40px;
+}
+
+.login {
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+}
